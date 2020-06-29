@@ -1,2 +1,0 @@
-$cat URLS.txt | xargs -P 10 -n 1 curl
-The above example should curl each of the URLs in parallel, 10 at a time. The -n 1 is there so that xargs only uses 1 line from the URLS.txt file per curl execution.
