@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+        abc:
+                build:
+                        context:
+                        dockerfile: Dockerfile
+                container_name: imnewcontainer
+                ports:
+                  - "8080:8080"
+                                             
