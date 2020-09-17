@@ -1,1 +1,2 @@
 docker container run -d -p 8082:8081 --name testspringhealth --health-cmd "curl -f localhost:8081/actuator/health || false" --health-interval 50s --health-retries 3 --health-timeout 2s --health-start-period 60s demospringapplicationwithactuator;
+
